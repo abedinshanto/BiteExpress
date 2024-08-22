@@ -193,6 +193,7 @@ input[type="search"] {
 }
 
 /* informations */
+/* This styles are not being shown in the gitgub live page */
 .parent-info{
     display: flex;
     justify-content: space-between;
@@ -201,7 +202,7 @@ input[type="search"] {
     width: 100%;
     margin: 100px 0px;
     border-radius: 10px;
-    /* background-color: red; */
+    background-color: red;
     box-shadow: var(--shadow);
 }
 .info{
