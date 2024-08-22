@@ -191,3 +191,47 @@ input[type="search"] {
     align-items: center;
     cursor: pointer;
 }
+
+/* informations */
+.parent-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    width: 100%;
+    margin: 100px 0px;
+    border-radius: 10px;
+    /* background-color: red; */
+    box-shadow: var(--shadow);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 40px;
+}
+.info i{
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.info h3{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: var(--secondary-font-size);
+    font-weight: 500;
+    margin: 0px;
+}
+.info p{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: 1rem;
+    margin: 10px;
+}
+.info-line{
+    height: 65%;
+    border-left: 1px solid #cecece;
+    margin-right: 0px;
+}
