@@ -193,7 +193,6 @@ input[type="search"] {
 }
 
 /* informations */
-/* This styles are not being shown in the gitgub live page */
 .parent-info{
     display: flex;
     justify-content: space-between;
@@ -202,7 +201,7 @@ input[type="search"] {
     width: 100%;
     margin: 100px 0px;
     border-radius: 10px;
-    background-color: red;
+    /* background-color: red; */
     box-shadow: var(--shadow);
 }
 .info{
@@ -235,4 +234,89 @@ input[type="search"] {
     height: 65%;
     border-left: 1px solid #cecece;
     margin-right: 0px;
+}
+/* products */
+.popular-text p{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 0px;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.popular-text h3{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: var(--secondary-font-size);
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.popular-item{
+    position: relative;
+    height: 420px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}
+.rating{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.rating i{
+    color: var(--primary-color);
+}
+.rating p{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: 1rem;
+    margin: 0px;
+}
+.name h3{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: var(--secondary-font-size);
+    font-weight: bold;
+    margin: 0px;
+}
+.name-rating{
+    /* position: absolute;
+    bottom: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    margin-top: 15px;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    margin-top: 10px;
+}
+.cart button{
+    background: linear-gradient(90deg, #ffa229 0%, #ff7b29 100%);
+    font-weight: bold;
+    color: var(--background-color);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    border: none;
+}
+.cart p{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+.popular-item-img img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.popular-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
