@@ -16,7 +16,11 @@ a{
     align-items: center;
     
 }
+.logo h2{
+    font-size: var(--logo-font-size);
+}
 .logo{
+    font-size: var(--primary-font-size);
     gap: 0.2rem;
     display: flex;
     font-family: var(--logo-font);
@@ -33,7 +37,7 @@ a{
 }
 .mid-menu h3{
     font-weight: 500;
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     cursor: pointer;
 }
 input[type="search"] {
@@ -41,7 +45,7 @@ input[type="search"] {
     border: none;
     outline: none;
     font-family: var(--secondary-font);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     color: var(--font-color);
 }
 .search{
@@ -57,7 +61,7 @@ input[type="search"] {
     font-weight: 500;    
 }
 .search i{
-    font-size: 1rem;
+    font-size: var(--primary-font-size);
     margin: 0rem 0.5rem;
 }
 .vr{
@@ -79,7 +83,7 @@ input[type="search"] {
 }
 .left-side-heading h1{
     font-weight: bold;
-    font-size: 6rem;
+    font-size: var(--heading-font-size);
     margin: 0rem;
 }
 .left-side-heading p{
@@ -109,7 +113,7 @@ input[type="search"] {
 .item h3, h4{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     margin: 0rem;
     margin-top: 1rem;
     text-align: center;
@@ -120,7 +124,7 @@ input[type="search"] {
 .item p{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin: 0rem;
     margin-top: 0.5rem;
     text-align: center;
@@ -154,7 +158,7 @@ input[type="search"] {
     padding: 1rem 2rem;
     border-radius: 1rem;
     font-family: var(--secondary-font);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     margin-top: 3rem;
     text-align: center;
     border: none;
@@ -173,12 +177,12 @@ input[type="search"] {
 .order-process h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: 500;
     cursor: pointer;
 }
 .order-process i{
-    font-size: 1.5rem;
+    font-size: var(--primary-font-size);
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -212,24 +216,24 @@ input[type="search"] {
     justify-content: center;
     text-align: center;
     margin: 1rem 1rem;
-    padding: 2rem;
+    padding: 5rem;
 }
 .info i{
-    font-size: 2rem;
+    font-size: var(--subheading-font-size);
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 .info h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: 500;
     margin: 0rem;
 }
 .info p{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin: 0.2rem;
 }
 .info-line{
@@ -241,7 +245,7 @@ input[type="search"] {
 .popular-text p{
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin: 0rem;
     margin-top: 0.5rem;
     text-align: center;
@@ -249,7 +253,7 @@ input[type="search"] {
 .popular-text h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--subheading-font-size);
     font-weight: bold;
     margin-bottom: 5rem;
     text-align: center;
@@ -272,13 +276,13 @@ input[type="search"] {
 .rating p{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin: 0rem;
 }
 .name h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: bold;
     margin: 0rem;
 }
@@ -337,14 +341,14 @@ input[type="search"] {
 .see-more button{
     background: none;
     font-family: var(--secondary-font);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     color: var(--background-color);
     font-weight: 500;
     border: none;
     cursor: pointer;
 }
 .see-more i{
-    font-size: 1.5rem;
+    font-size: var(--primary-font-size);
     color: var(--background-color);
     cursor: pointer;
 }
@@ -389,21 +393,21 @@ input[type="search"] {
     /* transition: border 1s;   */
 }
 .card i{
-    font-size: 3rem;
+    font-size: var(--subheading-font-size);
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 .card h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: 500;
     margin: 0rem;
 }
 .card p{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin: 1rem;
 }
 .cards{
@@ -439,7 +443,7 @@ input[type="search"] {
 .profile h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: bold;
     margin: 0rem;
     margin-top: 1rem;
@@ -449,7 +453,7 @@ input[type="search"] {
     align-items: center;
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: 0.8rem;
+    font-size: var(--secondary-font-size);
     margin: 0rem;
     margin-top: 0.5rem;
 }
@@ -464,7 +468,7 @@ input[type="search"] {
 .testimonial-subcontainer{
     display: flex;
     justify-content: center;
-    gap: 25rem;
+    gap: 15rem;
     align-items: center;
 }
 .right-testimonial img{
@@ -488,18 +492,18 @@ input[type="search"] {
 }
 .newsletter-right h3{
     font-family: var(--secondary-font);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: bold;
     margin-bottom: 1rem;
 }
 .newsletter-right p{
     font-family: var(--secondary-font);
-    font-size: 1rem;
+    font-size: var(--secondary-font-size);
     margin-bottom: 1rem;
 }
 .newsletter-right input[type="email"] {
     border: none;
-    font-size: 0.8rem;
+    font-size: var(--secondary-font-size);
     font-family: var(--secondary-font);
     color: var(--font-color);
     border-radius: 0.5rem;
@@ -522,13 +526,13 @@ input[type="search"] {
     font-family: var(--secondary-font);
     padding: 0.8rem 1.5rem;
     border-radius: 0.5rem;
-    font-size: 0.8rem;
+    font-size: var(--primary-font-size);
     font-weight: 500;
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 10rem;
-    top: 0.5rem;
+    right: 6rem;
+    top: 0.4rem;
 }
 /* footer */
 .footer-container{
@@ -538,7 +542,7 @@ input[type="search"] {
     margin: 0rem 0rem 2rem 0rem;
 }
 .footer-container p{
-    font-size: 0.8rem;
+    font-size: var(--secondary-font-size);
     font-family: var(--secondary-font);
     color: var(--font-color);
     margin: 1rem 0rem;
@@ -546,7 +550,7 @@ input[type="search"] {
 .footer-container h3{
     font-family: var(--secondary-font);
     color: var(--font-color);
-    font-size: var(--secondary-font-size);
+    font-size: var(--primary-font-size);
     font-weight: bold;
     margin: 0rem;
 }
@@ -555,13 +559,13 @@ input[type="search"] {
     gap: 1rem;
 }
 .social-media i{
-    font-size: 1rem;
+    font-size: var(--primary-font-size);
     color: var(--primary-color);
     cursor: pointer;
 }
 .footer-link a{
     display: flex;
-    font-size: 0.8rem;
+    font-size: var(--secondary-font-size);
     cursor: pointer;
 }
 .footer-link p{
@@ -570,4 +574,3 @@ input[type="search"] {
 .footer-link{
     margin: 1rem 0rem;
 }
-/* newsletter functionality */
