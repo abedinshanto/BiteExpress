@@ -39,6 +39,7 @@ a{
 input[type="search"] {
     padding: 0.3rem 0.3rem;
     border: none;
+    outline: none;
     font-family: var(--secondary-font);
     font-size: var(--secondary-font-size);
     color: var(--font-color);
@@ -506,6 +507,9 @@ input[type="search"] {
     width: 20rem;
     height: 2rem;
 }
+.newsletter-right input[type="email"]:focus{
+    outline: none;
+}
 .input-and-button{
     display: flex;
     position: relative;
@@ -566,3 +570,4 @@ input[type="search"] {
 .footer-link{
     margin: 1rem 0rem;
 }
+/* newsletter functionality */

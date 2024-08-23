@@ -8,6 +8,7 @@
     <!-- links -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="root.css">
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.png">
     <script src="https://kit.fontawesome.com/d916611b0c.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
@@ -468,12 +469,13 @@
                     </div>
                     <div class="newsletter-subscription">
                         <div class="input-and-button">
-                            <div class="input">
-                                <input type="email" name="email" id="" placeholder="Type your email...">
-                            </div>
-                            <div class="button">
-                                <button type="submit">Subscribe</button>
-                            </div>
+                            <form action="" onsubmit="getContact(event)" method="get">
+                                    <input type="email" name="email" class="input" id="email" placeholder="Type your email..." >
+                                <div class="button">
+                                    <button type="submit">Subscribe</button>
+                                </div>
+                                <div id="success-container"></div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -491,16 +493,16 @@
                 <p>Craving delicious food delivered to your door?
                 <br>Bite Express is your go-to for fresh, fast, and flavorful meals.</p>
                 <div class="social-media">
-                    <a href="#">
+                    <a target="_blank" href="https://www.facebook.com/">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.x.com">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.instagram.com">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a target="_blank" href="https://www.linkedin.com">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
