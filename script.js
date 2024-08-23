@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#hide-btn').click(function() {
-        $('#hide-div').toggle();
+        $('.hide').toggle();
 
         var button = $(this).find('button');
         var icon = $(this).find('i');
