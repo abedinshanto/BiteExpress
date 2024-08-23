@@ -305,6 +305,7 @@ input[type="search"] {
     font-family: var(--secondary-font);
     font-weight: 300;
     border: none;
+    cursor: pointer;
 }
 .cart p{
     font-family: var(--secondary-font);
@@ -330,7 +331,7 @@ input[type="search"] {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 .see-more button{
     background: none;
@@ -408,7 +409,7 @@ input[type="search"] {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 /* testimonial */
 .left-testimonial{
@@ -421,6 +422,7 @@ input[type="search"] {
     border-radius: 1rem;
     padding: 4rem;
     box-shadow: var(--shadow);
+    margin-bottom: 5rem;
 }
 .profile{
     display: flex;
@@ -466,4 +468,60 @@ input[type="search"] {
 }
 .right-testimonial img{
     height: 15rem;
+}
+/* newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    height: 25rem;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: black;
+    color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.newsletter-right h3{
+    font-family: var(--secondary-font);
+    font-size: var(--secondary-font-size);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.newsletter-right p{
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.newsletter-right input[type="email"] {
+    border: none;
+    font-size: 0.8rem;
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+    width: 20rem;
+    height: 2rem;
+}
+.input-and-button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    background: linear-gradient(90deg, #ffa229 0%, #ff7b29 100%);
+    color: var(--background-color);
+    font-family: var(--secondary-font);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10rem;
+    top: 0.5rem;
 }
