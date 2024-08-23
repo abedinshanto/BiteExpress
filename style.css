@@ -356,11 +356,9 @@ input[type="search"] {
     gap: 0.5rem;
     cursor: pointer;
 }
-#test-div{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-}
 .pop-2{
     margin-top: 50px;
+}
+.hide{
+    display: none;
 }
