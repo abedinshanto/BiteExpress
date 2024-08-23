@@ -2,7 +2,7 @@ body, h2, h3{
     margin: 0rem;
 }
 body{
-    padding: 2rem 8rem;
+    padding: 2rem 8rem 0rem 8rem;
     background-color: var(--background-color);
 }
 a{
@@ -483,6 +483,7 @@ input[type="search"] {
     align-items: center;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 .newsletter-right h3{
     font-family: var(--secondary-font);
@@ -524,4 +525,44 @@ input[type="search"] {
     position: absolute;
     right: 10rem;
     top: 0.5rem;
+}
+/* footer */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 0rem 0rem 2rem 0rem;
+}
+.footer-container p{
+    font-size: 0.8rem;
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    margin: 1rem 0rem;
+}
+.footer-container h3{
+    font-family: var(--secondary-font);
+    color: var(--font-color);
+    font-size: var(--secondary-font-size);
+    font-weight: bold;
+    margin: 0rem;
+}
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+.social-media i{
+    font-size: 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.footer-link a{
+    display: flex;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.footer-link p{
+    margin: 0rem;
+}
+.footer-link{
+    margin: 1rem 0rem;
 }
