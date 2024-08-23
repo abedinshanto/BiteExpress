@@ -8,12 +8,45 @@
     --background-color: hsl(0, 0%, 100%);
     --font-color: hsl(0, 0%, 5%);
 
-    --primary-font-size: 2rem;
-    --secondary-font-size: 1.1rem;
-
     --logo-font: 'Archivo Black', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
-    --body-font: 'Roboto', sans-serif;
-
+    
     --shadow: 3px 5px 25px 0px rgba(0,0,0,0.1);
+    
+    /* main font size */
+    --logo-font-size: 1.5rem;
+    --heading-font-size: 6rem;
+    --subheading-font-size: 3rem;
+    --primary-font-size: 1rem;
+    --secondary-font-size: 0.8rem;
+    /* responsive font size */
+
+    /* Font sizes for 1500px display */
+    --r-logo-font-size: 1.2rem;
+    --r-heading-font-size: 4.8rem;
+    --r-subheading-font-size: 2.4rem;
+    --r-primary-font-size: 0.8rem;
+    --r-secondary-font-size: 0.64rem;
+    
+    /* Font sizes for 1200px display */
+    --rr-logo-font-size: 0.96rem;
+    --rr-heading-font-size: 3.84rem;
+    --rr-subheading-font-size: 1.92rem;
+    --rr-primary-font-size: 0.64rem;
+    --rr-secondary-font-size: 0.512rem;
+
+    /* Font sizes for 1050px display */
+    --rrr-logo-font-size: 0.768rem;
+    --rrr-heading-font-size: 3.072rem;
+    --rrr-subheading-font-size: 1.536rem;
+    --rrr-primary-font-size: 0.512rem;
+    --rrr-secondary-font-size: 0.4096rem;
+
+    /* Font sizes for 852px display */
+    --rrrr-logo-font-size: 0.6144rem;
+    --rrrr-heading-font-size: 2.4576rem;
+    --rrrr-subheading-font-size: 1.2288rem;
+    --rrrr-primary-font-size: 0.4096rem;
+    --rrrr-secondary-font-size: 0.32768rem;
+
 }
